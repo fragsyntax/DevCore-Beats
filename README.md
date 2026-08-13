@@ -27,7 +27,3 @@ YouTube search results now show the official YouTube thumbnail, song title and c
 
 ## Language categories
 The homepage now includes **Punjabi, Haryanvi, Bhojpuri and Hindi** tabs, each with **Top 50** and **Latest Songs** sections. With a YouTube API key, these sections automatically search YouTube and show official thumbnails, song titles and singer/channel names. Without a key, demo cards are shown instead.
-
-
-### Search & Playback
-The search form is wired to YouTube Data API v3, Spotify official embed, and SoundCloud official widget. YouTube results can be played with the built-in player and previous/next/play/pause/seek controls.
