@@ -11,27 +11,9 @@
 <main><section class="hero" id="home"><div class="waves"></div><div class="heroText"><small>F E E L &nbsp; E V E R Y &nbsp; B E A T</small>
 <h1>Music for<br><span>every mood.</span></h1><p>Discover songs, explore artists and build the perfect soundtrack for your life.</p>
 <button class="gradient" id="startBtn">Start Listening ▶</button><button class="outline" onclick="document.querySelector('#premium').scrollIntoView({behavior:'smooth'})">Explore Premium</button></div>
-<div class="player" id="musicPlayer">
-  <div class="cover"><img id="coverImg" src="assets/devcore-beats-logo.png" alt="Now playing"></div>
-  <div class="playerInfo">
-    <small>NOW PLAYING</small>
-    <h2 id="title">DevCore Vibes</h2>
-    <p id="artist">DevCore Beats</p>
-    <div class="visualizer"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-    <div class="progress"><span id="current">0:00</span><input id="seek" type="range" min="0" max="100" value="0"><span id="duration">0:00</span></div>
-    <div class="controls">
-      <button id="shuffle" title="Shuffle">🔀</button>
-      <button id="prev" title="Previous">⏮</button>
-      <button class="play" id="play" title="Play / Pause">▶</button>
-      <button id="next" title="Next">⏭</button>
-      <button id="repeat" title="Repeat">🔁</button>
-      <div class="volumeWrap"><button id="volumeIcon" title="Mute / Unmute">🔊</button><input id="volume" type="range" min="0" max="100" value="80" title="Volume"></div>
-      <button id="queueBtn" title="Queue">☷</button>
-    </div>
-  </div>
-  <button class="heart" id="heart" title="Like">♡</button>
-  <div class="queuePanel" id="queuePanel"><div class="queueHead"><b>Queue</b><button id="closeQueue">×</button></div><div id="queueList"></div></div>
-</div></section>
+<div class="player"><div class="cover"><img src="assets/devcore-beats-logo.png"></div><div class="playerInfo"><small>NOW PLAYING</small><h2 id="title">DevCore Vibes</h2><p id="artist">DevCore Beats</p><div class="visualizer"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+<div class="progress"><span id="current">0:00</span><input id="seek" type="range" min="0" max="100" value="0"><span id="duration">0:00</span></div>
+<div class="controls"><button>🔀</button><button id="prev">⏮</button><button class="play" id="play">▶</button><button id="next">⏭</button><button>🔁</button></div></div><button class="heart" id="heart">♡</button></div></section>
 
 <section class="section" id="explore"><div class="sectionHead"><div><small>TRENDING NOW</small><h2>Popular picks</h2></div><button id="viewAll">View all ›</button></div><div class="cards" id="cards"></div></section>
 
